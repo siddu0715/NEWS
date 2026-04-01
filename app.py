@@ -144,7 +144,7 @@ st.subheader("Transforming Print Media into Actionable Intelligence")
 
 with st.sidebar:
     st.header("⚙️ Configuration")
-    api_key = st.text_input("Enter Gemini API Key", value="AIzaSyC_iQOPG_io86xYQkwJk41nPLoHXSiBzfs", type="password")
+    api_key = st.text_input("Enter Gemini API Key", value="", type="password", placeholder="Paste your Gemini API key here...")
     st.info("No Key? Get it for free: [aistudio.google.com](https://aistudio.google.com/)")
     st.divider()
     st.markdown("### Supported Formats")
